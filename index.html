@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title> weather-report</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="container loction">
+			<div class="row">
+				<div class="col-6 offset-3 auto-mr btn btn-secondary ">
+					<h1 class="location-timezone display-3">PLACE</h1>		
+				</div>
+				<div class="row">
+					<span></span>
+				<div class="col-12 mt-4">
+					<h2 class="display-3"><strong> Visibility ~</strong> <span class=" condition badge badge-success"> - </span></h2>	
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="temperature container">
+			<div class="row">
+				<div class="col-12  mt-4">
+					<h2 class="display-3"><strong> Temp ~ </strong> <span class="temperature-degree badge badge-success"> - </span> <strong>f</strong></h2>
+				</div>
+				<div class="col-12 mt-4">	
+				<h2 class="display-3"><strong>Conditions ~ </strong><span class="temperature-description badge badge-warning"> - </span></h2>
+				</div>
+				<div class="col-12 mt-4">	
+				<h2 class="display-3"><strong>Humidity ~ </strong><span class="humid badge badge-warning"> - </span></h2>
+				</div>
+				<div class="col-12 mt-4">	
+				<h2 class="display-3"><strong>Wind Speed ~ </strong><span class="windspeed badge badge-warning"> - </span></h2>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
